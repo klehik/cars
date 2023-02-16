@@ -3,6 +3,7 @@ from run import run
 from video import create_video
 from dotenv import load_dotenv
 import os
+
 def main(session):
     load_dotenv('.env')
     if os.getenv('PROCESS') == "1":
