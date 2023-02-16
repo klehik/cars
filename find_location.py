@@ -8,21 +8,17 @@ def find_car_location(image_path, filename, car_id, session):
     image_number = filename.split('.')[0][-3:]
     identifier = f'{session}-{car_id}-{image_number}'
     image = cv2.imread(image_path)
+    # blur
     blur = cv2.GaussianBlur(image,(5,5),cv2.BORDER_DEFAULT)
     # convert to grayscale
     gray = cv2.cvtColor(blur, cv2.COLOR_BGR2GRAY)
     # convert to binary image
     thresh = cv2.threshold(gray, 215, 255,cv2.THRESH_BINARY_INV)[1]
-    
-    # thresh = cv2.erode(thresh, None, iterations=2)
-
     # dilate
     dilate = cv2.dilate(thresh, None, iterations=2)
-    
     # get contours
     contours = cv2.findContours(dilate.copy(), cv2.RETR_EXTERNAL,
         cv2.CHAIN_APPROX_SIMPLE)
-    
     
     contours = imutils.grab_contours(contours)
     """ m = 0
@@ -46,7 +42,6 @@ def find_car_location(image_path, filename, car_id, session):
     cv2.putText(image, identifier, (2600, 1250), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 5)
     filename = f'./edited/{session}/{car_id}/xx{filename}'
     
-
     if os.environ['DEBUG'] == '1':
         cv2.imshow(filename, image)
         cv2.waitKey(0)
