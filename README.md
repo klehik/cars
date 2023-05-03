@@ -15,8 +15,15 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   <img
   src="docs/org.png"/>
   
+  </div>
+  
   
 </figure>
+
+<div  >
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
 
 <figure>
     <figcaption>Blur</figcaption>
@@ -25,6 +32,9 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   
   
 </figure>
+<p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
 
 <figure>
     <figcaption>Convert to grayscale</figcaption>
@@ -34,6 +44,9 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   
 </figure>
 
+<p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
 <figure>
     <figcaption>Convert to binary image</figcaption>
   <img
@@ -41,6 +54,9 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   
   
 </figure>
+<p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
 
 <figure>
     <figcaption>Dilate to increase the size of white area in the binary image</figcaption>
@@ -49,6 +65,9 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   
   
 </figure>
+<p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
 
 <figure>
     <figcaption>Find contours in the processed image</figcaption>
@@ -57,6 +76,9 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   
   
 </figure>
+<p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
 
 <figure>
     <figcaption>Find coordinates for extreme right of largest area of contours</figcaption>
@@ -65,8 +87,9 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   
   
 </figure>
-
-</figure>
+<p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
+  <p style="text-align: center">.</p>
 
 <figure>
     <figcaption>Final</figcaption>
