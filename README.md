@@ -6,7 +6,7 @@ A computer vision tool for gathering object location data from images and genera
 
 Over 20000 image dataset was collected by sending 21 different toy cars down the ramp and and taking an image of each dispatch. The task was to calculate the distance traveled on every dispatch and provide a .csv-format dataset for the artist.
 
-The distance car traveled is calculated from extracted x-coordinate and the known real-world width of the area in the image. Image metadata is also collected.
+The distance car traveled is calculated from extracted x-coordinate and the known real-world width of the area in the image.
 
 ## Image processing
 
@@ -96,21 +96,16 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   <img
   src="docs/final.png"/>
   
-  
 </figure>
 
 <figure>
     <figcaption>Sample CSV</figcaption>
   <img
   src="docs/csv_example.png"/>
-  
-  
 </figure>
 
 <figure>
     <figcaption>Video created for debugging and monitoring results</figcaption>
   <img
   src="docs/014.gif"/>
-  
-  
 </figure>
