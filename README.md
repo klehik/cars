@@ -15,12 +15,8 @@ The distance car traveled is calculated from extracted x-coordinate and the know
   <img
   src="docs/org.png"/>
   
-  </div>
-  
-  
 </figure>
 
-<div  >
   <p style="text-align: center">.</p>
   <p style="text-align: center">.</p>
   <p style="text-align: center">.</p>
