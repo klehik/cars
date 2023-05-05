@@ -108,7 +108,7 @@ The distance car traveled is calculated from extracted x-coordinate and the know
 </figure>
 
 <figure>
-    <figcaption>Debug video</figcaption>
+    <figcaption>Video created for debugging and monitoring results</figcaption>
   <img
   src="docs/014.gif"/>
   
